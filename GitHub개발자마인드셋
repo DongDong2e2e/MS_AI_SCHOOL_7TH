@@ -1,1 +1,21 @@
+# 원격 저장소에서 로컬 저장소로 fetch
 
+## content만 clone
+git clone repository주소 .
+
+## repository clone (repository명으로 폴더가 생성)
+git clone repository주소 
+
+# 변경사항 확인
+git status 
+
+# 변경사항 추가
+git add {file_path}또는git add . 현재 디렉토리 내 모든 변경사항 추가 
+
+# 원격저장소에 올릴 변경사항 적용
+git commit -m "커밋 메시지 입력"
+
+# 원격 저장소에 반영
+git push origin
+또는 
+git push origin main
