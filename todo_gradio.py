@@ -8,7 +8,7 @@ def add_todo(todo):
     todos.append(todo)
     print("Added:",todo)
 
-def delete_todo(todo):
+def delete_todo(index):
     if 0 <= index < len(todos):
         removed = todos.pop(index)
         print("Deleted:", removed)
